@@ -190,15 +190,16 @@
 
 	/*Login top*/
 	.login-left{
+		justify-items: start;
 		align-self: start;
 		display: grid;
 		grid-auto-flow: row;
+		margin-left: 10rem;
 	}
 
 	.user-img{
 		width: 5rem;
 		border-radius: 50%;
-
 	}
 
 	.login{
