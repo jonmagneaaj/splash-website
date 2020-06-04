@@ -1,5 +1,5 @@
 <script>
-    let logo = 'img/splash_logo.jpg'
+    let logo = 'img/splash_logo.png'
 </script>
 
 <header>
@@ -12,6 +12,7 @@
 <style>
     header{
         background: #ffffff;
+        padding: 20px 0px;
     }
     h1{
         margin: 0;

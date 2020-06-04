@@ -1,7 +1,7 @@
 :root{
 	font-size: 62.5%;
 	--grey: rgb(44,44,44);
-	--red: rgb(255,100,100);
+	--red: rgb(30, 92, 172);
 }
 
 *{
@@ -39,13 +39,17 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'IBM Plex Mono', monospace;
+
+	text-align: center;
+	margin: 0 auto;
+	background-color: #ddd;
 }
 
 h1{
 	font-size: 1.8rem;
 }
 
-h2{
+h2 .h2{
 	font-size: 1.6rem;
 	
 }
@@ -54,6 +58,19 @@ p{
 	font-size: 1.4rem;
 	line-height: 2rem;
 	padding: 1rem 0;
+	text-align: justify;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.underline{
+	text-decoration: underline;
 }
 
 
@@ -74,38 +91,10 @@ label {
 	display: block;
 }
 
-input, button, select, textarea {
-	font-family: inherit;
-	font-size: inherit;
-	padding: 0.4em;
-	margin: 0 0 0.5em 0;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 2px;
-}
-
 input:disabled {
 	color: #ccc;
 }
 
 input[type="range"] {
 	height: 0;
-}
-
-button {
-	color: #333;
-	background-color: #f4f4f4;
-	outline: none;
-}
-
-button:disabled {
-	color: #999;
-}
-
-button:not(:disabled):active {
-	background-color: #ddd;
-}
-
-button:focus {
-	border-color: #666;
 }
